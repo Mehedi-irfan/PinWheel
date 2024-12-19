@@ -2,3 +2,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  @apply overflow-x-hidden scroll-smooth;
+}
+.nav-link {
+  @apply text-lg font-medium text-color-text duration-300 hover:text-color-primary;
+}
+.btn {
+  @apply px-8 py-3 tracking-wide font-medium text-color-text bg-color-white rounded-full shadow-lg duration-200 hover:shadow-none;
+}
