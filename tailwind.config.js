@@ -2,13 +2,6 @@
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
-    // screens: {
-    //   sm: "340px",
-    //   md: "768px",
-    //   lg: "968px",
-    //   xl: "1250px",
-    // },
-
     backgroundImage: {
       "color-gradient":
         "linear-gradient(184.78deg, #fa709a 7.64%, #fee140 120.07%)",
