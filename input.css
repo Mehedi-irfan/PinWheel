@@ -13,7 +13,7 @@ html {
   @apply px-8 py-3 tracking-wide font-medium text-color-text bg-color-white rounded-full shadow-lg duration-200 hover:shadow-none;
 }
 .high-light-card {
-  @apply py-4 lg:px-6 px-4 rounded-lg shadow-slate-200 shadow-2xl bg-white space-y-2;
+  @apply py-4 lg:px-6 px-4 rounded-lg shadow-slate-300 shadow-2xl bg-white space-y-2 hover:shadow-none duration-300;
 }
 .high-light-card-title {
   @apply lg:text-2xl text-xl font-semibold text-color-text;
