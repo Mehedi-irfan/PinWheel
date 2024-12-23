@@ -21,3 +21,8 @@ html {
 .hight-light-card-caption {
   @apply text-color-gray lg:text-lg text-base tracking-wide;
 }
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  @apply bg-color-primary text-xl;
+}
