@@ -832,6 +832,12 @@ video {
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
+.space-x-11 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(2.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .overflow-hidden{
   overflow: hidden;
 }
@@ -842,6 +848,41 @@ video {
 
 .rounded-lg{
   border-radius: 0.5rem;
+}
+
+.rounded-t-2xl{
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.rounded-t-3xl{
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+
+.rounded-b-full{
+  border-bottom-right-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+}
+
+.rounded-b-3xl{
+  border-bottom-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.rounded-b-\[40px\]{
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.rounded-b-\[60px\]{
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+.rounded-b-\[80px\]{
+  border-bottom-right-radius: 80px;
+  border-bottom-left-radius: 80px;
 }
 
 .border-4{
@@ -875,6 +916,10 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-color-gradient{
+  background-image: linear-gradient(184.78deg, #fa709a 7.64%, #fee140 120.07%);
 }
 
 .px-2{
@@ -922,6 +967,26 @@ video {
   padding-bottom: 2rem;
 }
 
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-16{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.px-20{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.py-24{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .pb-12{
   padding-bottom: 3rem;
 }
@@ -932,10 +997,6 @@ video {
 
 .pt-12{
   padding-top: 3rem;
-}
-
-.pt-20{
-  padding-top: 5rem;
 }
 
 .pt-24{
@@ -1029,6 +1090,11 @@ video {
 .text-color-text{
   --tw-text-opacity: 1;
   color: rgb(34 34 34 / var(--tw-text-opacity, 1));
+}
+
+.text-color-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .shadow-md{
@@ -1322,6 +1388,11 @@ html{
 
   .lg\:text-5xl{
     font-size: 3rem;
+    line-height: 1;
+  }
+
+  .lg\:text-6xl{
+    font-size: 3.75rem;
     line-height: 1;
   }
 }
