@@ -64,7 +64,7 @@
     <!-- main section start  -->
     <main>
       <!-- home section start  -->
-      <section id="home" class="relative z-50 px-2 lg:px-0">
+      <section id="home" class="relative z-30 px-2 lg:px-0">
         <div class="container py-10">
           <div
             class="flex flex-col lg:flex-row justify-between items-center gap-8 lg:gap-0"
@@ -116,7 +116,7 @@
           </div>
           <!-- grid content  -->
           <div
-            class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-6 py-10"
+            class="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 lg:gap-6 gap-3 py-10"
           >
             <!-- hight-light-card 1 -->
             <div class="high-light-card">
@@ -223,7 +223,7 @@
           >
             <!-- content  -->
             <div class="md:w-2/5 space-y-4">
-              <h2 class="text-5xl font-semibold text-color-text">
+              <h2 class="lg:text-5xl text-4xl font-semibold text-color-text">
                 Prevent failure from to impacting your reputation
               </h2>
               <p class="text-color-gray text-lg tracking-tight">
@@ -232,7 +232,7 @@
                 infrastructure, you can.
               </p>
 
-              <ul class="space-y-1 mt-4 w-3/4">
+              <ul class="space-y-1 mt-4 lg:w-3/4">
                 <li
                   class="flex flex-row space-x-3 items-center px-3 rounded-lg py-3 hover:bg-color-highLight duration-300"
                 >
@@ -308,7 +308,7 @@
               </div>
             </div>
             <!-- shape -->
-            <div class="absolute lg:top-[320px] lg:left-[300px] top-[180px]">
+            <div class="absolute lg:top-[320px] lg:left-[300px] top-[150px]">
               <img src="./imgaes/circle-shape.svg" alt="" />
             </div>
           </div>
@@ -343,7 +343,9 @@
                 src="./imgaes/intro-thumbnail.png"
                 alt=""
               />
-              <div class="absolute top-40 z-50 w-full h-full left-[310px]">
+              <div
+                class="absolute lg:top-40 top-28 left-[190px] z-50 w-full h-full lg:left-[310px]"
+              >
                 <img
                   class="w-[70px] h-[70px] flex items-center justify-center px-5 py-2 bg-color-primary rounded-full"
                   src="./imgaes/play-icon.svg"
@@ -608,18 +610,20 @@
       <section id="theme">
         <div class="container py-20">
           <div
-            class="bg-color-gradient flex flex-col lg:flex-row justify-center space-x-11 py-24 px-20 rounded-t-3xl rounded-b-[80px]"
+            class="bg-color-gradient flex flex-col lg:flex-row justify-center lg:space-x-11 space-y-4 lg:space-y-0 lg:py-24 lg:px-20 py-14 px-10 rounded-t-3xl rounded-b-[80px]"
           >
-            <div class="space-y-8 md:w-1/2">
+            <div class="space-y-4 md:w-1/2">
               <h1
-                class="text-3xl lg:text-5xl tracking-wider text-color-white font-bold"
+                class="text-4xl lg:text-5xl tracking-wider text-color-white font-bold"
               >
                 Helping teams in the world with focus
               </h1>
               <button class="btn">Download The Theme</button>
             </div>
             <div class="md:w-1/2">
-              <p class="tracking-winder text-color-white text-lg px-8">
+              <p
+                class="tracking-winder text-color-white text-lg lg:px-8 text-start"
+              >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                 egestas Werat viverra id et aliquet. vulputate egestas
                 sollicitudin .
@@ -629,6 +633,87 @@
         </div>
       </section>
       <!-- Download Theme section End  -->
+
+      <!-- footer section start  -->
+      <section id="footer" class="bg-color-white">
+        <div class="container py-28 border-b border-gray-200">
+          <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-8">
+            <div class="space-y-6">
+              <img src="./imgaes/site Logo.svg" alt="" />
+              <p class="text-color-gray text-lg">
+                Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo
+                tellus, sed condimentum volutpat.
+              </p>
+            </div>
+            <div class="space-y-6">
+              <p class="text-black font-bold text-lg">Socials</p>
+              <p class="text-color-gray text-lg">mehediirfan99@gmail.com</p>
+              <ul class="flex items-center space-x-4">
+                <li
+                  class="flex justify-center items-center bg-color-gray rounded-full px-3 py-2 text-lg text-color-white hover:bg-color-primary duration-300"
+                >
+                  <i class="ri-facebook-circle-fill"></i>
+                </li>
+                <li
+                  class="flex justify-center items-center bg-color-gray rounded-full px-3 py-2 text-lg text-color-white hover:bg-color-primary duration-300"
+                >
+                  <i class="ri-instagram-line"></i>
+                </li>
+                <li
+                  class="flex justify-center items-center bg-color-gray rounded-full px-3 py-2 text-lg text-color-white hover:bg-color-primary duration-300"
+                >
+                  <i class="ri-twitter-fill"></i>
+                </li>
+                <li
+                  class="flex justify-center items-center bg-color-gray rounded-full px-3 py-2 text-lg text-color-white hover:bg-color-primary duration-300"
+                >
+                  <i class="ri-skype-fill"></i>
+                </li>
+              </ul>
+            </div>
+            <div class="space-y-4">
+              <p class="text-black font-bold text-lg">Quick Links</p>
+              <ul class="space-y-2">
+                <li
+                  class="text-color-gray text-lg hover:text-color-primary duration-300 hover:underline"
+                >
+                  <a href="">About</a>
+                </li>
+                <li
+                  class="text-color-gray text-lg hover:text-color-primary duration-300 hover:underline"
+                >
+                  <a href="">Category</a>
+                </li>
+                <li
+                  class="text-color-gray text-lg hover:text-color-primary duration-300 hover:underline"
+                >
+                  <a href="">Testimonial</a>
+                </li>
+                <li
+                  class="text-color-gray text-lg hover:text-color-primary duration-300 hover:underline"
+                >
+                  <a href="">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="space-y-4">
+              <p class="text-black font-bold text-lg">Location & Contact</p>
+              <p class="text-lg text-color-gray">
+                2118 Thornridge Cir. Syracuse, Connecticut 35624 <br />
+                (704) 555-0127
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container py-10">
+          <p
+            class="flex justify-center items-center text-color-gray text-base font-normal text-center"
+          >
+            Designed And Developed by Mehedi Irfan | Distributed by Mehedi Irfan
+          </p>
+        </div>
+      </section>
+      <!-- footer section End  -->
     </main>
     <!-- main section end  -->
 
